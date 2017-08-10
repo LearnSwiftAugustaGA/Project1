@@ -47,6 +47,38 @@
             </objects>
             <point key="canvasLocation" x="876" y="141.67916041979012"/>
         </scene>
+        <!--Detail View Controller-->
+        <scene sceneID="s5p-Mw-Wl5">
+            <objects>
+                <viewController storyboardIdentifier="Detail" id="ugW-zV-J10" customClass="DetailViewController" customModule="Project1" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="GfM-1x-JEu"/>
+                        <viewControllerLayoutGuide type="bottom" id="rsZ-Gz-KbD"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="FYX-dv-Lie">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="ccC-OD-ICK">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="ccC-OD-ICK" firstAttribute="top" secondItem="FYX-dv-Lie" secondAttribute="top" id="Dqy-o9-PnL"/>
+                            <constraint firstItem="ccC-OD-ICK" firstAttribute="leading" secondItem="FYX-dv-Lie" secondAttribute="leading" id="KMS-1w-GpM"/>
+                            <constraint firstItem="ccC-OD-ICK" firstAttribute="bottom" secondItem="rsZ-Gz-KbD" secondAttribute="top" id="RK7-Z4-bVx"/>
+                            <constraint firstAttribute="trailing" secondItem="ccC-OD-ICK" secondAttribute="trailing" id="iDb-qS-mRP"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="imageView" destination="ccC-OD-ICK" id="FWG-Fc-Ene"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xMY-sg-0UO" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1652" y="138.98050974512745"/>
+        </scene>
         <!--Navigation Controller-->
         <scene sceneID="N8D-IA-1UH">
             <objects>
