@@ -26,7 +26,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		EB8018B71F3CBE9C00C7499E /* Project1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Project1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB8018B71F3CBE9C00C7499E /* Project3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Project3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB8018BA1F3CBE9C00C7499E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EB8018BC1F3CBE9C00C7499E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		EB8018BF1F3CBE9C00C7499E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -68,7 +68,7 @@
 		EB8018B81F3CBE9C00C7499E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				EB8018B71F3CBE9C00C7499E /* Project1.app */,
+				EB8018B71F3CBE9C00C7499E /* Project3.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -108,9 +108,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		EB8018B61F3CBE9C00C7499E /* Project1 */ = {
+		EB8018B61F3CBE9C00C7499E /* Project3 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EB8018C91F3CBE9C00C7499E /* Build configuration list for PBXNativeTarget "Project1" */;
+			buildConfigurationList = EB8018C91F3CBE9C00C7499E /* Build configuration list for PBXNativeTarget "Project3" */;
 			buildPhases = (
 				EB8018B31F3CBE9C00C7499E /* Sources */,
 				EB8018B41F3CBE9C00C7499E /* Frameworks */,
@@ -120,9 +120,9 @@
 			);
 			dependencies = (
 			);
-			name = Project1;
+			name = Project3;
 			productName = Project1;
-			productReference = EB8018B71F3CBE9C00C7499E /* Project1.app */;
+			productReference = EB8018B71F3CBE9C00C7499E /* Project3.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -137,12 +137,11 @@
 				TargetAttributes = {
 					EB8018B61F3CBE9C00C7499E = {
 						CreatedOnToolsVersion = 8.3.3;
-						DevelopmentTeam = 57Z2X7TWVH;
 						ProvisioningStyle = Automatic;
 					};
 				};
 			};
-			buildConfigurationList = EB8018B21F3CBE9C00C7499E /* Build configuration list for PBXProject "Project1" */;
+			buildConfigurationList = EB8018B21F3CBE9C00C7499E /* Build configuration list for PBXProject "Project3" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -155,7 +154,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				EB8018B61F3CBE9C00C7499E /* Project1 */,
+				EB8018B61F3CBE9C00C7499E /* Project3 */,
 			);
 		};
 /* End PBXProject section */
@@ -315,7 +314,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 57Z2X7TWVH;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = Project1/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.learnswiftaugustaga.Project1;
@@ -328,7 +327,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 57Z2X7TWVH;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = Project1/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.learnswiftaugustaga.Project1;
@@ -340,7 +339,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		EB8018B21F3CBE9C00C7499E /* Build configuration list for PBXProject "Project1" */ = {
+		EB8018B21F3CBE9C00C7499E /* Build configuration list for PBXProject "Project3" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				EB8018C71F3CBE9C00C7499E /* Debug */,
@@ -349,13 +348,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EB8018C91F3CBE9C00C7499E /* Build configuration list for PBXNativeTarget "Project1" */ = {
+		EB8018C91F3CBE9C00C7499E /* Build configuration list for PBXNativeTarget "Project3" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				EB8018CA1F3CBE9C00C7499E /* Debug */,
 				EB8018CB1F3CBE9C00C7499E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
